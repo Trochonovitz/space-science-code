@@ -5,19 +5,156 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Space Science Website Template</title>
 
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="/src/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Audiowide&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="/fontello-a8d14e31/fontello-a8d14e31/css/fontello.css"
+    />
   </head>
   <body>
-    <nav>
-      logo
+    <div class="nav__transparent"></div>
+    <div class="our-mission__background"></div>
+    <div class="upper-footer__background"></div>
+    <div class="footer__background__socials"></div>
+    <div class="footer__background__end"></div>
 
-      <ul>
-        <li class="nav__element"></li>
-        <li class="nav__element"></li>
-        <li class="nav__element"></li>
-        <li class="nav__element"></li>
-        <li class="nav__element"></li>
-      </ul>
-    </nav>
+    <div class="wrapper">
+      <nav class="nav">
+        <img src="/public/img/logo.png" alt="website-logo" class="logo" />
+
+        <ul>
+          <a href="./index.html"><li class="nav__element">HOME</li></a>
+          <a href="./about.html"><li class="nav__element">ABOUT</li></a>
+          <a href="./projects.html"><li class="nav__element">PROJECTS</li></a>
+          <a href="./blog.html"><li class="nav__element">BLOG</li></a>
+          <a href="./contact.html"><li class="nav__element">CONTACT</li></a>
+        </ul>
+      </nav>
+
+      <main class="main">
+        <img
+          src="/public/img/satellite.png"
+          alt="satellite"
+          class="satellite"
+        />
+
+        <div class="main__sidebar">
+          <h1 class="main__title">SOYUZ TMA-M</h1>
+          <p>SPACECRAFT</p>
+
+          <button>READ MORE</button>
+        </div>
+      </main>
+
+      <div class="featured-projects">
+        <div class="featured-projects__title">
+          <h1>FEATURED PROJECTS</h1>
+        </div>
+
+        <div class="featured-projects__box-images">
+          <div class="featured-projects__element">
+            <img
+              src="/public/img/project-image1.jpg"
+              alt="project-image1"
+              srcset=""
+            />
+          </div>
+
+          <div class="featured-projects__element">
+            <img
+              src="/public/img/project-image2.jpg"
+              alt="project-image2"
+              srcset=""
+            />
+          </div>
+
+          <div class="featured-projects__element">
+            <img
+              src="/public/img/project-image3.jpg"
+              alt="project-image3"
+              srcset=""
+            />
+          </div>
+
+          <div class="featured-projects__element">
+            <img
+              src="/public/img/project-image4.jpg"
+              alt="project-image4"
+              srcset=""
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="our-mission">
+        <h1>
+          OUR MISSION
+        </h1>
+        <p>
+          This website template has been designed by Free Website Templates for
+          you, for free. You can replace all this text with your own text.
+        </p>
+      </div>
+
+      <div class="upper-footer">
+        <div class="featured-video">
+          <h1>FEATURED VIDEO</h1>
+          <img src="/public/img/mars-rover.jpg" alt="vide-thumbnail" />
+        </div>
+
+        <div class="latest-blog">
+          <h1>LATEST BLOG</h1>
+
+          <div class="latest-blog__element">
+            <img
+              class="first-image"
+              src="/public/img/finding-planet.jpg"
+              alt="pic-blog-1"
+            />
+
+            <div class="latest-blog__element__data">
+              <h2 class="latest-blog__element__title">FINDING PLANET X-123</h2>
+              <p class="latest-blog__element__date">FEBRUARY 6, 2023</p>
+              <button class="latest-blog__element__button">READ MORE</button>
+            </div>
+          </div>
+
+          <div class="latest-blog__element">
+            <img
+              class="second-image"
+              src="/public/img/new-satellitedish.jpg"
+              alt="pic-blog-2"
+            />
+
+            <div class="latest-blog__element__data">
+              <h2 class="latest-blog__element__title">
+                NEW SATELLITE DISH
+              </h2>
+              <p class="latest-blog__element__date">FEBRUARY 3, 2023</p>
+              <button class="latest-blog__element__button">READ MORE</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="footer__socials">
+          <p>FOLLOW OUR MISSIONS ON</p>
+          <a href="#"><span class="icon-facebook"></span></a>
+          <a href="#"><span class="icon-twitter"></span></a>
+          <a href="#"><span class="icon-gplus"></span></a>
+          <a href="#"><span class="icon-pinterest"></span></a>
+        </div>
+
+        <div class="footer__end">
+          <p>© 2023 BY SPACE PROSPECTION | ALL RIGHTS RESERVED</p>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
