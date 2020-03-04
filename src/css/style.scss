@@ -1,35 +1,42 @@
+@import "./about";
+
 @mixin black-shadow {
-  background-color: black;
-  opacity: 0.5;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 body {
   box-sizing: border-box;
   background-image: url(/public/img/bg-home.jpg);
+
   display: flex;
+  flex-flow: column wrap;
+
   justify-content: center;
   align-items: center;
+
   font-family: "Audiowide", cursive;
   margin: 0;
 }
 
 .wrapper {
-  width: 940px;
+  width: 90%;
+  max-width: 940px;
   display: flex;
   flex-wrap: wrap;
   position: relative;
+  margin: 0 auto;
 }
 
 .nav {
   height: 62px;
-  width: 100%;
 
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 
   .logo {
     height: 62px;
+    max-width: 100%;
   }
 
   ul {
@@ -85,11 +92,16 @@ body {
 .main {
   display: flex;
   width: 100%;
-
+  flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
 
   margin-top: 50px;
+
+  img {
+    display: flex;
+    flex-flow: row wrap;
+  }
 
   &__sidebar {
     display: flex;
@@ -355,5 +367,25 @@ body {
 
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.75rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .wrapper {
+    flex-flow: column wrap;
+    .nav {
+      ul {
+        display: none;
+      }
+    }
+  }
+
+  .upper-footer {
+    flex-flow: column wrap;
+    .featured-projects {
+      &__box-images {
+        flex-flow: column wrap;
+      }
+    }
   }
 }

@@ -1,0 +1,99 @@
+.nav-test {
+  background-color: black;
+  opacity: 0.5;
+  height: 62px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-test .logo {
+  height: 62px;
+}
+
+.nav-test ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  list-style-type: none;
+  height: 62px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.nav-test a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-test a:first-child {
+  background-color: black;
+  opacity: 0.5;
+}
+
+.nav-test__element {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 62px;
+  color: white;
+  padding: 0 20px 0 20px;
+  cursor: pointer;
+}
+
+.nav-test__element:hover {
+  background-color: #810202;
+}
+
+.nav-test .footer-test-social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 84px;
+  color: white;
+  font-size: 1.4rem;
+  background-color: grey;
+}
+
+.nav-test .footer-end-test {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 84px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.75rem;
+  background-color: white;
+  width: 100%;
+  height: 84px;
+}
+/*# sourceMappingURL=about.css.map */
